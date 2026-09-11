@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+main{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0);
+    padding: 14px 23px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+nav button{
+    padding: 10px 40px;
+    cursor: pointer;
+    /* border-radius: 50px; */
+    border: 2px solid rgb(255, 255, 255);
+    background-color: white;
+    font-weight: 700
+}
+
+.Links{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+nav img{
+    height: 100px;
+    width: 100px; 
+    cursor: pointer;
+}
+
+section{
+    position: relative;
+    height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+h1{
+    font-size: 350px;
+    padding: 10px;
+    color: beige;
+    /* -webkit-text-stroke: 2px beige; */
+}
+.car-div{
+    position: absolute;
+    width: 100%;
+    height: 70%;
+    top: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.car-div img{
+    height: 160%;
+    width: 90%;
+
+}
+
+footer{
+    display: flex;
+    margin-top: 12%;
+    color: beige;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#porsche{
+    font-weight: 400;
+}
+
+#dets{
+    font-size: 40px;
+    font-weight: 500;
+    color: rgb(255, 224, 186);
+}
+
+.midd{
+    display:flex;
+    gap: 40px;
+}
+
+.midd p{
+    font-size: 20px;
+}
+
+.midd h2{
+    font-size: 30px;
+}
+
+.midd div{
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+.imgdiv{
+    display: flex;
+    gap: 30px;
+}
+.imgbox{
+    height: 100px;
+    width: 170px;
+    gap:10px;
+    background-color: red;
+}
+
+.imgbox img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
